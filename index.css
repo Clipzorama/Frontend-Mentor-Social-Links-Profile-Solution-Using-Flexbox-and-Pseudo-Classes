@@ -1,0 +1,88 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+:root {
+    --Greener: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--Grey-900);
+}
+
+.all-content {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Grey-800);
+    justify-content: center;
+    align-items: center;
+    margin: 330px auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.jess-flic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 80px auto 10px;
+}
+
+.name {
+    color: var(--White);
+    font-size: 2.8rem;
+    font-family: inter;
+    letter-spacing: 0.1rem;
+    margin: 37px auto 10px;
+}
+
+.location {
+    color: var(--Greener);
+    font-family: inter;
+    font-size: 1.4rem;
+    margin: 15px auto 50px;
+    letter-spacing: 0.18rem;
+}
+
+p {
+    color: var(--White);
+    font-family: inter;
+    font-size: 1.6rem;
+    margin: 10px auto 20px;
+}
+
+.btn {
+    color: var(--White);
+    background-color: var(--Grey-700);
+    width: 80%;
+    height: 95px;
+    font-family: inter;
+    font-size: 1.8rem;
+    margin: 13px auto 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.btn:hover {
+    color: var(--Grey-900);
+    background-color: var(--Greener);
+}
+
+#last {
+    margin-bottom: 70px;
+}
